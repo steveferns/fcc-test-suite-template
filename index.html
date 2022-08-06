@@ -21,7 +21,7 @@
         />
       </div>
       <div>
-        <label id="email-label" for="email">Name</label>
+        <label id="email-label" for="email">Email</label>
         <input
           type="email"
           name="email"
@@ -30,6 +30,24 @@
           required
         />
       </div>
+      <div>
+      <label id="number-label" for="number">Age</label>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="1" max="50"
+        placeholder="Enter your age"
+        required
+        />
+      </div>
+      <select id="dropdown" name="profession">
+      <option value="student">Student</option>
+      <option value="engineer">Engineer</option>
+      <option value="government-employee">Government Employee</option>
+      </select>
+      <textarea id="additional comments"></textarea>
+      <button type="submit" id="submit" value="submit">Submit</button> 
     </form>
   </body>
 </html>
